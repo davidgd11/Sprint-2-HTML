@@ -1,0 +1,265 @@
+body{ /*tudo*/
+  background-image: linear-gradient(to right, rgb(32, 96, 126)40%, rgb(255, 255, 255) );
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 100vh;
+  width: 200vh;
+}
+
+.imgfarol{
+  width: 60px;
+  height: 60px;
+  margin-top: 30px ;
+  margin-left: 20px;
+}
+
+h1 { /*"Vinheria Agnello"*/
+  color: #fff;
+}
+
+#icone{
+  display: flex;
+  margin-left: 100px;
+
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+header nav{ /*Navegador*/
+    background-color: rgb(255, 255, 255);
+    width: 660px;
+    height: 34px;
+    top: 5%;
+    margin-left: 400px;
+    margin-top: 30px;
+    position: absolute;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header li{
+  position: relative;
+  display: inline;
+  padding: 20px;
+  font-size: 18px;
+}
+
+header li a{ /*Links navegador*/
+  color: rgb(31, 133, 180);
+  text-decoration: none;
+  padding: 2px;
+}
+
+header li:hover a { /*Sublinhado(hover) nos links*/
+  color: rgb(31, 133, 180);
+  border-radius: 7%;
+  border-bottom: 1px  solid;
+}
+
+
+.investir { /*Botão investir*/ 
+  background-color:rgb(82, 153, 185) ;
+  color:#fff;
+  padding: 30px;
+  font-size: 30px;
+  border-radius: 10%;
+  border-bottom: 1px #fff solid;
+  margin-right: 190px;
+  margin-top: 35px;
+}
+
+.investir a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.investir:hover a{ /*sublinhado(hover) botao investir*/
+  color:#fff;
+  border-radius: 7%;
+  border-bottom: 1px #fff solid;  
+}
+
+h3 { /* "Bem vindo" das páginas*/
+  color: #a8dbf0;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+
+h2{ /*Descrição da página*/
+  margin-left: 400px;
+  margin-right: 350px;
+  color:#ffffff;
+}
+
+.saiba a { /*Botão "Saiba Mais" */
+  color: rgb(31, 133, 180);
+  text-decoration: none;
+  margin-left: 400px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10%;
+  float: left;
+}
+
+.saiba:hover a { /*Sublinhado(hover) no link saiba mais */
+  color: rgb(31, 133, 180);
+  border-radius: 7%;
+  border-bottom: 1px #000000 solid;
+}
+
+.saiba img{  /* Imagens da página HOME */
+    border-radius: 8%;
+    float: right;
+    text-decoration: none;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+.img5{ /* Imagem 1 da página HOME */
+  height: 255px;
+  width: 280px;
+  margin-right: 180px;
+  margin-top: 10px;
+}
+
+.img4{ /* Imagem 2 da página HOME */
+  height: 380px;
+  width: 350px;
+}
+
+
+/*-----------------*/
+
+
+h5{ /*Parágrafo página "Como funciona" */
+  margin-left: 400px;
+  margin-right: 350px;
+  font-size: 30px;
+  color:#ffffff;
+  background-image: linear-gradient(to right, rgb(32, 96, 126)40%,rgb(82, 153, 185) );
+  border-radius: 7px;
+  padding: 4px;
+}
+
+
+/*-----------------*/
+
+
+#imgs{
+  margin-top: 100px;
+  margin-left:400px ;
+  margin-right: 350px;
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-between;
+}
+
+.img1{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border-bottom: black;
+}
+
+.img2{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border-bottom: black;
+}
+
+.img3{
+  margin-top: 40px;
+  width: 170px;
+  height: 100px;
+  border-radius: 10px;
+  border-bottom: black;
+}
+
+.img7{
+  margin-top: 40px;
+  width: 170px;
+  height: 100px;
+  border-radius: 10px;
+  border-bottom: black;
+}
+
+
+/*-------------*/
+
+
+form{
+  font-size: 15px;
+  background-image: linear-gradient(to right, rgb(32, 96, 126)40%,rgb(82, 153, 185) );
+  border-bottom: black;
+  border-radius: 7px;
+  width: 740px;
+  height: 300px;
+  margin-bottom: 20px;
+  margin-left: 400px;
+}
+
+form label{
+  margin-left: 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+#h1{
+  color: #000;
+  text-align: center;
+}
+
+#nomeid{
+  width: 110px;
+}
+
+#emailid{
+  width: 110px;
+}
+
+#telid{
+  width: 110px;
+}
+
+input, textarea{
+  width: 200px;
+  padding: 10px;
+  color: #000;
+  border-radius: 5px;
+  margin-left: 40px;
+}
+
+input:hover, textarea:hover{
+  border-color:rgb(31, 133, 180);
+  box-shadow: 5px 0px 10px rgb(0, 6, 58);
+  font-weight: bold;
+}
+
+textarea{
+  width: 215px;
+  height:110px;
+}
+
+#submit{
+  width: 95px;
+  height: 50px;
+}
+
+#submit:hover{
+  background-color:azure;
+  font-weight: bold;
+  color:rgb(0, 0, 0);
+}
+
+#dados{
+  display:flex;
+}
+
+#text_enviar{
+  display: flex;
+}
